@@ -1,0 +1,140 @@
+
+#background {
+    background-color: grey;
+}
+#question {
+    color: blue;
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute, center;
+}
+h1 {
+    font-color: black;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 170px;
+    text-align: center;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 0px;
+    top: -200px;
+    padding: 85px;
+    z-index: 20;
+}
+#output {
+    font-color: black;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 160px;
+    top: 246px;
+    padding: 85px;
+    z-index: 2;
+
+}
+#outtercircle {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    left:100px;
+    top: 100px;
+    z-index: -1;
+
+}
+
+#innercircle {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    position: absolute;
+    left:246px;
+    top: 246px;
+    z-index: 0;
+}
+
+#form {
+    font-family: Verdana;
+    font-weight: bold;
+    /*border-radius: 10%;*/
+    /*width: 220px;*/
+    /*height: 220px;*/
+    /*background-color: white;*/
+    /*position: absolute, center;*/
+    z-index: 1;
+}
+ #form input[type="text"]{
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius:10px;
+    border: 2px solid white;
+    font-size: 24px;
+    width: 62%;
+    /*border-rus: 4px;*/
+/*  -mozmoz-border-radius:10px;
+    -webkit-border-radius:10px;*/
+    background-color: white;
+}
+
+#form label {
+width: 4em;
+font-size: 25px;
+}
+/*
+#form input[type="button"]{
+	padding: 110%;
+	    line-height: 18px;
+    height: 20px;
+  font-weight: bold;
+  font-size: 150%;
+  text-transform: uppercase;
+}*/
+
+#button{
+    padding: 10px;
+      line-height: 18px;
+    height: 20px;
+  font-weight: bold;
+  font-size: 150%;
+  text-transform: uppercase;
+  /*background-color: #000000;*/
+}
+
+
+/*input {
+    -webkit-appearance: textfield;
+    padding: 3px;
+    background-color: white;
+    border: 2px inset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}*/
+/*user agent stylesheetinput, textarea, keygen, select, button {
+    margin: 0em;
+    font: 12px BlinkMacSystemFont;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}*/
