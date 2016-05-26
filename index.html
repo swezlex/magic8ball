@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic8Ball</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script> 
+	<link rel = "stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body id="background">
+
+<div id="outtercircle">
+	  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+        <defs>
+            <path id="criclePath" d=" M 150, 150 m -120, 0 a 120,120 0 0,1 240,0 a 120,120 0 0,1 -240,0 "/>
+        </defs>
+        <g>
+            <use xlink:href="#criclePath" fill="none"/>
+            <text fill="#fff">
+                <textPath xlink:href="#criclePath">Ask the Magic 8 Ball!</textPath>
+            </text>
+        </g>
+    </svg>
+</div>
+	
+<div id="innercircle"></div>
+
+<div id="output"><h1>8</h1></div>
+
+<div id="form">
+<form name="myForm" action="" method="get" onclick="return validateForm()" >
+		  <label>ASK!</label>
+		  <input type="text" id="question" name="question" required/>
+		  <input type="button" value="click me" onclick="clicker()" id="button"/>
+ </form>
+
+
+<script src="hackathon.js" type="text/javascript"></script>
+</body>
+</html>
+
+<!-- http://www.w3schools.com/html/html_forms.asp -->
